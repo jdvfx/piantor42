@@ -1,33 +1,33 @@
-# Piantor 42 keys layout (QWERTY)
+# Piantor 42 keys layout
 
-Goal:
-- keep the layout as standard as possible, making it easy to switch between the Piantorand a fullsize or laptop keyboard.
+![](https://github.com/jdvfx/piantor42/blob/main/piantor_layout.png)
+
+> Goal:
+- keep the layout as standard as possible, </br>
+making it easy to switch between 42keys and a fullsize or laptop keyboard.
+- minimal learning curve (qwerty, no home-row mod, no auto-shift, no tap-dance)
 - remove duplicated keys (almost done)
-- move F keys on a layer. Realistically, I only ever use F1.
-
-- arrow in Vim position (hjkl)
-
-- brackets are in logical priority order: (){}[]
-function(){
+- remove unused keys: capslock/scroll lock/pause
+- move F-keys on a layer. Realistically, I only ever use F1.
+- arrow keys in Vim position (hjkl)
+- brackets are in logical priority order: (){}[]</br>
+<code>function(){
     array[]
-}
+}</code></br>
+- -+= are inline for easy coding += -=
+- "delete" is a combo, much safer than a single key press.
+- "Enter" can be pressed with the right thumb or pinkie
 
-"delete" is a combo, much safer than a single key press.
+> keys in same position as on a standard layout: </br>
+- bottom to top: ctrl, shift, tab </br>
+- left to right: crtl, super, space </br>
+- top row: numbers and corresponding symbols </br>
+- backspace and enter </br>
+- 3 keys on the right side of "M" </br>
 
-- keys in same position as a standard layout:
-bottom to top: ctr, shift, tab 
-left to right: crtl, super, space
-top row: numbers and corresponding symbols 
-backspace and enter
-3 keys on the right side of "M"
-
-- to do:
-add "insert" key? used very rarely in 2 softwares
-cleanup "n" key. I don't use ?/ 
-cleanup the "/" key. I don't use }
-cleanup "m" key. remove *
-cleanup "k" key. remove +
-
-
-
-
+> to do:
+- add "insert" key? used very rarely in 2 softwares </br>
+- cleanup "n" key. I don't use ?/  </br>
+- cleanup the "/" key. I don't use } </br>
+- cleanup "m" key. remove * </br>
+- cleanup "k" key. remove + </br>
